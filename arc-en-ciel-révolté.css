@@ -1,21 +1,26 @@
 :root {
-  --bg-primary: #222;
-  --text-primary: linear-gradient(90deg, 
+  --bg-primary: #121212; /* sombre mais pas noir absolu */
+  --text-primary: #ffffff;
+  --accent-rainbow: linear-gradient(90deg, 
     #e40303, #ff8c00, #ffed00, #008026, #004dff, #750787);
 }
 
 body {
   background: var(--bg-primary) !important;
-  color: #fff !important;
+  color: var(--text-primary) !important;
 }
 
-.text-white, .text-black {
-  background: var(--text-primary);
+.text-rainbow {
+  background: var(--accent-rainbow);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .bg-white, .bg-black, .bg-gray-900 {
-  background: #111 !important;
+  background: #222 !important;
+}
+
+.text-white, .text-black {
+  color: var(--text-primary) !important;
 }
