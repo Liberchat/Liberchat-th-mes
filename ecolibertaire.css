@@ -1,0 +1,30 @@
+:root {
+  --bg-primary: #0b3d0b;      /* vert forêt sombre */
+  --text-primary: #a8d5a8;    /* vert clair, doux */
+  --text-strong: #f0f8f0;     /* presque blanc, pour titres */
+  --accent: #6bbf59;          /* vert moyen vif */
+}
+
+body {
+  background: var(--bg-primary) !important;
+  color: var(--text-primary) !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text-strong {
+  color: var(--text-strong) !important;
+  font-weight: 700;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.bg-white, .bg-black, .bg-gray-900 {
+  background: #064006 !important; /* un vert plus sombre pour fonds */
+}
