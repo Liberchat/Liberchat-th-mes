@@ -129,7 +129,6 @@ Les thèmes s'adaptent automatiquement :
 ## 🔄 Mises à Jour
 
 ### Version 6.1.20
-- ✅ Correction compatibilité mode clair
 - ✅ Optimisation des performances
 - ✅ Amélioration de l'application des thèmes
 
