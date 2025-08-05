@@ -1,0 +1,16 @@
+:root {
+  --bg-primary: #001a4d;
+  --text-primary: #99ccff;
+}
+
+body {
+  background: var(--bg-primary) !important;
+}
+
+.text-white, .text-black {
+  color: var(--text-primary) !important;
+}
+
+.bg-white, .bg-black, .bg-gray-900 {
+  background: #000d29 !important;
+}
