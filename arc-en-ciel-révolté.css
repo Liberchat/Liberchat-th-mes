@@ -1,8 +1,6 @@
 :root {
-  --bg-primary: #121212; /* sombre mais pas noir absolu */
-  --text-primary: #ffffff;
-  --accent-rainbow: linear-gradient(90deg, 
-    #e40303, #ff8c00, #ffed00, #008026, #004dff, #750787);
+  --bg-primary: #2a004f;
+  --text-primary: #e0c3ff;
 }
 
 body {
@@ -10,17 +8,25 @@ body {
   color: var(--text-primary) !important;
 }
 
-.text-rainbow {
-  background: var(--accent-rainbow);
+/* Texte arc-en-ciel animé */
+.text-strong {
+  font-weight: 700;
+  background: linear-gradient(90deg, 
+    #e40303, #ff8c00, #ffed00, #008026, #004dff, #750787);
+  background-size: 300% 300%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: 700;
+  animation: rainbow 6s linear infinite;
 }
 
+/* Fond pour certains éléments */
 .bg-white, .bg-black, .bg-gray-900 {
-  background: #222 !important;
+  background: #1a0033 !important;
 }
 
-.text-white, .text-black {
-  color: var(--text-primary) !important;
+/* Animation arc-en-ciel */
+@keyframes rainbow {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
 }
