@@ -1,0 +1,19 @@
+:root {
+  --bg-primary: #fffdea;
+  --text-primary: #6b4f00;
+  --text-strong: #a67500;
+}
+
+body {
+  background: var(--bg-primary) !important;
+  color: var(--text-primary) !important;
+}
+
+.text-strong {
+  color: var(--text-strong) !important;
+  font-weight: 700;
+}
+
+.bg-white, .bg-black, .bg-gray-900 {
+  background: #fff5b1 !important;
+}
