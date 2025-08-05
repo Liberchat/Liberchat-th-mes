@@ -114,9 +114,6 @@ Les thèmes peuvent modifier :
 
 ### Incompatibilité avec le mode clair
 
-- **Problème résolu** dans la version 6.1.20
-- Ciblez les deux classes : `.bg-white` ET `.bg-black`
-
 ### Thème disparaît après rechargement
 
 - Les thèmes sont sauvegardés dans le localStorage
