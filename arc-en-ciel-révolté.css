@@ -1,0 +1,21 @@
+:root {
+  --bg-primary: #222;
+  --text-primary: linear-gradient(90deg, 
+    #e40303, #ff8c00, #ffed00, #008026, #004dff, #750787);
+}
+
+body {
+  background: var(--bg-primary) !important;
+  color: #fff !important;
+}
+
+.text-white, .text-black {
+  background: var(--text-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.bg-white, .bg-black, .bg-gray-900 {
+  background: #111 !important;
+}
