@@ -38,7 +38,6 @@ Liberchat propose un système de thèmes personnalisés permettant de modifier l
 ### Modes Supportés
 
 - ✅ **Mode Sombre** : Tous les thèmes fonctionnent parfaitement
-- ✅ **Mode Clair** : Compatibilité complète depuis la v6.1.20
 - ✅ **Mode Accessibilité** : Les thèmes respectent les paramètres d'accessibilité
 
 ### CSS Ciblé
