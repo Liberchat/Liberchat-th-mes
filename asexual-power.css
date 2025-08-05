@@ -1,0 +1,18 @@
+ :root {
+  --bg-primary: #000000;
+  --text-primary: #ffffff;
+  --accent: #a3a3a3;
+}
+
+body {
+  background: var(--bg-primary) !important;
+  color: var(--text-primary) !important;
+}
+
+.text-white, .text-black {
+  color: var(--text-primary) !important;
+}
+
+.bg-white, .bg-black, .bg-gray-900 {
+  background: var(--accent) !important;
+}
